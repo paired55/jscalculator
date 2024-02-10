@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #F0F0F3;
@@ -25,6 +25,7 @@ body {
     color: white;
     border: none;
     text-align: right;
+    outline: none;
 }
 
 #keys {
