@@ -9,7 +9,7 @@ let currentOperator;
 // What happens when you click on a number
 for (button of numberButtons) {
 	button.addEventListener("click", (e) => {
-		if (display.value == Infinity || display.value == NaN) {
+		if (isNaN(display.value)) {
 			display.value = "";
 		}
 		display.value = display.value + e.target.textContent;
